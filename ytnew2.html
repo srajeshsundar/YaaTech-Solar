@@ -1,0 +1,230 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>   
+  <meta charset="UTF-8" />   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+  <title>YaaTech Solar Pvt Ltd</title>   
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />   
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
+  <style>     
+    * { box-sizing: border-box; }     
+    body {       
+      margin: 0;       
+      font-family: 'Inter', sans-serif;       
+      background-color: #f9fafb;       
+      color: #1f2937;       
+      scroll-behavior: smooth;     
+    }     
+    header {       
+      background: #f8b500;       
+      padding: 1rem 2rem;       
+      display: flex;       
+      align-items: center;       
+      justify-content: space-between;       
+      position: sticky;       
+      top: 0;       
+      z-index: 10;     
+    }     
+    header img {       
+      height: 50px;     
+    }     
+    nav a {       
+      margin-left: 20px;       
+      text-decoration: none;       
+      font-weight: 600;       
+      color: #fff;     
+    }     
+    .contact-info {       
+      color: #fff;       
+      margin-left: 20px;     
+    }     
+    .contact-info a {       
+      margin-left: 10px;       
+      text-decoration: none;       
+      color: #fff;       
+      font-weight: 600;     
+    }     
+    .hero {       
+      display: flex;       
+      flex-wrap: wrap;       
+      align-items: center;       
+      justify-content: space-between;       
+      padding: 4rem 2rem;       
+      background: #fff7e6;     
+    }     
+    .hero-text {       
+      flex: 1 1 50%;       
+      padding: 1rem;     
+    }     
+    .hero-text h1 {       
+      font-size: 3rem;       
+      margin-bottom: 1rem;       
+      color: #f59e0b;     
+    }     
+    .hero-text p {       
+      font-size: 1.2rem;       
+      margin-bottom: 1.5rem;     
+    }     
+    .hero-text a {       
+      background: #f59e0b;       
+      color: white;       
+      padding: 0.75rem 1.5rem;       
+      text-decoration: none;       
+      border-radius: 8px;       
+      font-weight: 600;     
+    }     
+    .hero-img {       
+      flex: 1 1 40%;       
+      text-align: center;     
+    }     
+    .hero-img img {       
+      max-width: 100%;       
+      height: auto;     
+    }     
+    .section {       
+      padding: 4rem 2rem;       
+      text-align: center;       
+      background: #ffffff;     
+    }     
+    .section:nth-child(even) {       
+      background: #f3f4f6;     
+    }     
+    .section h2 {       
+      font-size: 2rem;       
+      margin-bottom: 1rem;     
+    }     
+    .cards {       
+      display: flex;       
+      flex-wrap: wrap;       
+      justify-content: center;       
+      gap: 2rem;       
+      margin-top: 2rem;     
+    }     
+    .card {       
+      background: white;       
+      padding: 2rem;       
+      border-radius: 12px;       
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);       
+      flex: 1 1 250px;       
+      max-width: 280px;     
+    }     
+    .card h3 {       
+      margin-bottom: 0.5rem;       
+      color: #f59e0b;     
+    }     
+    footer {       
+      background: #1f2937;       
+      color: #fff;       
+      text-align: center;       
+      padding: 2rem;     
+    }     
+    .cta {       
+      background: #f59e0b;       
+      padding: 2rem;       
+      text-align: center;       
+      font-weight: bold;     
+    }     
+    .cta a {       
+      display: inline-block;       
+      margin-top: 1rem;       
+      background: white;       
+      color: #f59e0b;       
+      padding: 0.75rem 1.5rem;       
+      border-radius: 6px;       
+      text-decoration: none;       
+      font-weight: bold;     
+    }     
+    .whatsapp-float {       
+      position: fixed;       
+      bottom: 20px;       
+      right: 20px;       
+      background: #25D366;       
+      color: white;       
+      border-radius: 50%;       
+      width: 50px;       
+      height: 50px;       
+      display: flex;       
+      align-items: center;       
+      justify-content: center;       
+      font-size: 24px;       
+      text-decoration: none;       
+      z-index: 1000;       
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);     
+    }   
+  </style> 
+</head> 
+<body>   
+  <header>     
+    <img src="logo.png" alt="YaaTech Solar Logo" />     
+    <nav>       
+      <a href="#why">Why YaaTech</a>       
+      <a href="#benefits">Benefits</a>       
+      <a href="#process">Process</a>       
+      <a href="#contact">Contact</a>     
+    </nav>     
+    <div class="contact-info">       
+      <span>Call: <a href="tel:+919841024418">+91 98410 24418</a></span>       
+      <span>|</span>       
+      <a href="mailto:support.yaatechsolar@gmail.com">support.yaatechsolar@gmail.com</a>     
+    </div>   
+  </header>    
+
+  <section class="hero">     
+    <div class="hero-text" data-aos="fade-right">       
+      <h1>Power Your Future with YaaTech Solar</h1>       
+      <p>India’s smart choice for sustainable energy solutions.</p>       
+      <a href="#contact">Get a Free Quote</a>     
+    </div>     
+    <div class="hero-img" data-aos="fade-left">       
+      <img src="solar.jpg" alt="Solar Panel Illustration" />     
+    </div>   
+  </section>    
+
+  <section class="section" id="why">     
+    <h2 data-aos="fade-up">Why Choose YaaTech Solar?</h2>     
+    <p data-aos="fade-up">We combine cutting-edge technology with expert service to deliver reliable solar solutions.</p>     
+    <div class="cards">       
+      <div class="card" data-aos="fade-up"><h3>Expert Team</h3><p>Our engineers are highly trained and certified in solar tech.</p></div>       
+      <div class="card" data-aos="fade-up"><h3>End-to-End Support</h3><p>We manage everything from design to maintenance.</p></div>       
+      <div class="card" data-aos="fade-up"><h3>Affordable Plans</h3><p>Customized packages with EMI & subsidy options.</p></div>     
+    </div>   
+  </section>    
+
+  <section class="section" id="benefits">     
+    <h2 data-aos="fade-up">Benefits of Going Solar</h2>     
+    <div class="cards">       
+      <div class="card" data-aos="zoom-in"><h3>Save on Bills</h3><p>Reduce your electricity bill by up to 90%.</p></div>       
+      <div class="card" data-aos="zoom-in"><h3>Eco-Friendly</h3><p>Minimize your carbon footprint with clean energy.</p></div>       
+      <div class="card" data-aos="zoom-in"><h3>Property Value</h3><p>Increase resale value with solar upgrades.</p></div>       
+      <div class="card" data-aos="zoom-in"><h3>Govt Subsidy</h3><p>Take advantage of government-backed incentives.</p></div>     
+    </div>   
+  </section>    
+
+  <section class="section" id="process">     
+    <h2 data-aos="fade-up">Our Installation Process</h2>     
+    <div class="cards">       
+      <div class="card" data-aos="fade-up"><h3>1. Site Visit</h3><p>We assess your home for the best solar fit.</p></div>       
+      <div class="card" data-aos="fade-up"><h3>2. Proposal</h3><p>You get a transparent quote & plan.</p></div>       
+      <div class="card" data-aos="fade-up"><h3>3. Installation</h3><p>Our team installs and tests your system.</p></div>       
+      <div class="card" data-aos="fade-up"><h3>4. Activation</h3><p>Your solar power is switched on with monitoring support.</p></div>     
+    </div>   
+  </section>    
+
+  <section class="cta" id="contact">     
+    <p data-aos="fade-up">Ready to switch to solar?</p>     
+    <a href="mailto:support.yaatechsolar@gmail.com" data-aos="fade-up">Get a Free Quote</a>   
+  </section>    
+
+  <footer>     
+    <p>&copy; 2025 YaaTech Solar Pvt Ltd. All rights reserved.</p>     
+    <p>Call: <a href="tel:+919841024418">+91 98410 24418</a></p>     
+    <p>Email: <a href="mailto:support.yaatechsolar@gmail.com">support.yaatechsolar@gmail.com</a></p>   
+  </footer>    
+
+  <a href="https://wa.me/919841024418" target="_blank" class="whatsapp-float">💬</a>    
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+  <script>     
+    AOS.init({ duration: 1000 });   
+  </script> 
+</body> 
+</html>
